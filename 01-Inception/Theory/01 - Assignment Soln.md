@@ -58,7 +58,7 @@ A: `Async` - The async attribute is a `boolean attribute`. The script is downloa
 | Difference  |      async      |  defer |
 |-------------|-----------------|--------|
 | code | `<script async src = '...'></script>`  |  `<script defer src = '...'></script>`|
-| Loading sequence | Does not guarantee the execution sequense of the script    | Guarantees the execution sequence of scripts in wich they are ordered.   |
+| Loading sequence | Does not guarantee the execution sequense of the script    | Guarantees the execution sequence of scripts in which they are ordered.   |
 | Execution sequence | Loads the scripts while HTML is being rendered. When scripts are loaded, then HTML rendering stops and execution of script starts. When execution is completed, HTML rendering resumes.  | Loads the scripts while HTML is being rendered. Executes the scripts only after the HTML is completely rendered
 
 ## Q: Difference between a `Library and Framework`?
